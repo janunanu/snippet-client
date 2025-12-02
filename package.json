@@ -5,11 +5,12 @@
   "type": "module",
   
 "scripts": {
-  "dev": "vite",
-  "build": "npm install --legacy-peer-deps && vite build",
-  "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-  "preview": "vite preview"
-},
+    "dev": "vite",
+    "preinstall": "npm config set legacy-peer-deps true",
+    "build": "vite build", 
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
   
   "dependencies": {
     "axios": "^1.13.2",
