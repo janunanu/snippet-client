@@ -5,7 +5,7 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 // Define the base URL for your running API server
-const API_BASE_URL = 'https://snippet-api-6hap.onrender.com/';
+const API_BASE_URL = 'https://snippet-api-6hap.onrender.com/api/snippets'; 
 
 /**
  * Component for creating and submitting new code snippets.
@@ -22,7 +22,7 @@ const AddSnippetForm = ({ onSnippetCreated }) => {
   const [success, setSuccess] = useState(null);
   const [error, setError] = useState(null);
 
-  // Handles changes to form fields (text, language)
+ 
   const handleChange = (e) => {
     setFormData({
       ...formData,
