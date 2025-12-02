@@ -6,7 +6,7 @@
   
 "scripts": {
     "dev": "vite",
-    "preinstall": "npm config set legacy-peer-deps true",
+    
     "build": "vite build", 
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -17,7 +17,7 @@
     "bootstrap": "^5.3.8",
     "react": "^19.2.0",
     "react-bootstrap": "^2.10.10",
-    "react-copy-to-clipboard": "^5.1.0",
+    
     "react-dom": "^19.2.0",
     "react-syntax-highlighter": "^16.1.0"
   },
