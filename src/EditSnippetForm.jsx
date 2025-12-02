@@ -4,8 +4,8 @@ import { Form, Button, Row, Col, Card, Alert } from 'react-bootstrap';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
-// Define the base URL for your running API server
-const API_BASE_URL = 'http://localhost:3000/api/snippets';
+
+const API_BASE_URL = 'https://snippet-api-6hap.onrender.com/api/snippets';
 
 /**
  * Component for editing an existing code snippet.
