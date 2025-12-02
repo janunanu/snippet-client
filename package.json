@@ -4,12 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   
-  "scripts": {
-    "dev": "vite",
-    "build": "npm install --legacy-peer-deps && vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "npm install --legacy-peer-deps && vite build",
+  "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+  "preview": "vite preview"
+},
   
   "dependencies": {
     "axios": "^1.13.2",
