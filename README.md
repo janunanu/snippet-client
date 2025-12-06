@@ -1,16 +1,39 @@
-# React + Vite
+This repository contains the React front-end client for the Snippet application, a web-based Developer Knowledge Base. It provides a user interface to interact with the Snippet API Backend (Project 2), supporting full CRUD functionality.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Getting Started
 
-Currently, two official plugins are available:
+You must have the following software installed on your system:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Node.js
 
-## React Compiler
+The Snippet API Backend must be running or accessible via the internet.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Clone the repo
+git clone https://github.com/janunanu/snippet-client
+cd snippet-client
+npm install
 
-## Expanding the ESLint configuration
+The front-end is built using the React Framework (Functional Components and Hooks). It communicates exclusively with the external RESTful API backend developed in Project 2.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Live API Endpoint: https://snippet-api-6hap.onrender.com/api/snippets
+
+Backend Technology: Built using Node.js, Express, and MongoDB.
+
+Supported Operations (CRUD):
+
+GET /api/snippets
+
+POST /api/snippets
+
+PUT/DELETE /api/snippets/:id
+
+Live: https://snippet-client.onrender.com/
+
+Video presentation:
+
+0:12 Render
+0:30 Introduction of the app
+1:12 Demonstration of the app
+2:48 Summary
+
+Author & License Author: Janina Ahma/janunanu License: This project is licensed under the MIT License.
